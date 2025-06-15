@@ -1,16 +1,18 @@
 # Demand-Forecasting-for-Shared-Micro-Mobility-Services
 
-This project focuses on analyzing and modeling the demand for a shared electric cycle rental service in a major urban Indian environment. The goal was to identify key factors influencing usage patterns and build a predictive model to assist in operational and strategic decision-making.
+This project explores the factors influencing demand for shared electric bikes using two years of hourly rental data. The analysis centers around uncovering patterns through EDA and validating assumptions with statistical hypothesis testing.
 
 📌 Key Highlights
 
-Performed comprehensive exploratory data analysis (EDA) to assess seasonal trends, user segmentation (casual vs. registered), and weather impact.
+Performed detailed exploratory data analysis to understand usage trends by hour, day, season, and weather; handled outliers and engineered time-based features.
 
-Engineered relevant features including datetime decomposition (hour, weekday, season), and assessed multicollinearity among predictors.
+Used correlation heatmaps, distribution plots, and boxplots to reveal relationships between rental counts and independent variables.
 
-Built and evaluated multiple regression models including Linear Regression, Ridge, Lasso, and Decision Trees to predict daily and hourly demand.
+Conducted Shapiro-Wilk and Levene's tests to validate assumptions of normality and equal variance before statistical testing.
 
-Derived business insights such as higher demand during working hours, significant seasonal patterns, and weather sensitivity affecting casual riders more than registered ones.
+Applied t-tests (weekdays vs weekends), ANOVA/Kruskal-Wallis tests (weather and season impacts), and Chi-square tests (weather-season dependence) to derive actionable insights.
+
+Findings support strategic decisions like seasonal promotions, time-based pricing, and weather-aware operational planning.
 
 🧰 Tools & Techniques
 
